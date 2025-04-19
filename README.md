@@ -30,6 +30,12 @@ Aplicación web construida con **ASP.NET Core MVC**, diseñada para gestionar re
 
 ## ⚙️ Configuración del proyecto
 
+### 0. Requisitos previos
+
+- Tener una instancia de **SQL Server** en ejecución.
+- Restaurar la base de datos `AdventureWorks2022` (disponible en el sitio oficial de Microsoft).
+- Verificá que el API al que se conecta el proyecto esté correctamente configurado para usar esa base de datos.
+
 ### 1. Clonar el repositorio
 
 ```bash
