@@ -1,0 +1,48 @@
+﻿@model IEnumerable<Examen_Final_Progra06_Interfaz.Models.mProductReview>
+
+@{
+    ViewData["Title"] = "obtenerProductreviews";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Listado de Reseñas de Productos</h1>
+
+<p>
+    <a asp-action="agregaProductreview" class="btn btn-primary">Nueva Reseña</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.First().ProductReviewId)</th>
+            <th>@Html.DisplayNameFor(model => model.First().ProductId)</th>
+            <th>@Html.DisplayNameFor(model => model.First().ReviewerName)</th>
+            <th>@Html.DisplayNameFor(model => model.First().ReviewDate)</th>
+            <th>@Html.DisplayNameFor(model => model.First().EmailAddress)</th>
+            <th>@Html.DisplayNameFor(model => model.First().Rating)</th>
+            <th>@Html.DisplayNameFor(model => model.First().Comments)</th>
+            <th>@Html.DisplayNameFor(model => model.First().ModifiedDate)</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => item.ProductReviewId)</td>
+                <td>@Html.DisplayFor(modelItem => item.ProductId)</td>
+                <td>@Html.DisplayFor(modelItem => item.ReviewerName)</td>
+                <td>@Html.DisplayFor(modelItem => item.ReviewDate)</td>
+                <td>@Html.DisplayFor(modelItem => item.EmailAddress)</td>
+                <td>@Html.DisplayFor(modelItem => item.Rating)</td>
+                <td>@Html.DisplayFor(modelItem => item.Comments)</td>
+                <td>@Html.DisplayFor(modelItem => item.ModifiedDate)</td>
+                <td>
+                    @Html.ActionLink("Actualizar", "modificaProductreview", new { pIdProductreview = item.ProductReviewId }) |
+                    @Html.ActionLink("Detalle", "detalleProductreview", new { pIdProductreview = item.ProductReviewId }) |
+                    @Html.ActionLink("Eliminar", "eliminaProductreview", new { pIdProductreview = item.ProductReviewId })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

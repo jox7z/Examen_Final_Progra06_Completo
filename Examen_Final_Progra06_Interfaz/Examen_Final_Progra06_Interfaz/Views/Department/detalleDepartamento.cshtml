@@ -1,0 +1,43 @@
+﻿@model Examen_Final_Progra06_Interfaz.Models.mDepartments
+
+@{
+    ViewData["Title"] = "detalleDepartamento";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Detalle Departamento</h1>
+
+<div>
+    
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.DepartmentId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.DepartmentId)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.GroupName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.GroupName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ModifiedDate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ModifiedDate)
+        </dd>
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("Actualizar", "modificaDepartamento", new { pIdDepartment = Model.DepartmentId}) |
+    <a asp-action="obtenerDepartamentos">Regresar</a>
+</div>

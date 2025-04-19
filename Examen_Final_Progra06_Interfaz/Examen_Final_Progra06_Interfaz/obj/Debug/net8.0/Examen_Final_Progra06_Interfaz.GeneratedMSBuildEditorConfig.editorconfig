@@ -1,0 +1,105 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Examen_Final_Progra06_Interfaz
+build_property.RootNamespace = Examen_Final_Progra06_Interfaz
+build_property.ProjectDir = Z:\Repos Progra IV\Examen_Final_Progra06_Interfaz\Examen_Final_Progra06_Interfaz\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = Z:\Repos Progra IV\Examen_Final_Progra06_Interfaz\Examen_Final_Progra06_Interfaz
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[Z:/Repos Progra IV/Examen_Final_Progra06_Interfaz/Examen_Final_Progra06_Interfaz/Views/Department/agregaDepartamento.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxhZ3JlZ2FEZXBhcnRhbWVudG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Repos Progra IV/Examen_Final_Progra06_Interfaz/Examen_Final_Progra06_Interfaz/Views/Department/detalleDepartamento.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxkZXRhbGxlRGVwYXJ0YW1lbnRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Repos Progra IV/Examen_Final_Progra06_Interfaz/Examen_Final_Progra06_Interfaz/Views/Department/eliminaDepartamento.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxlbGltaW5hRGVwYXJ0YW1lbnRvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Repos Progra IV/Examen_Final_Progra06_Interfaz/Examen_Final_Progra06_Interfaz/Views/Department/modificaDepartamento.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxtb2RpZmljYURlcGFydGFtZW50by5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Repos Progra IV/Examen_Final_Progra06_Interfaz/Examen_Final_Progra06_Interfaz/Views/Department/obtenerDepartamentos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxvYnRlbmVyRGVwYXJ0YW1lbnRvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Repos Progra IV/Examen_Final_Progra06_Interfaz/Examen_Final_Progra06_Interfaz/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Repos Progra IV/Examen_Final_Progra06_Interfaz/Examen_Final_Progra06_Interfaz/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Repos Progra IV/Examen_Final_Progra06_Interfaz/Examen_Final_Progra06_Interfaz/Views/Login/errorGeneral.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cZXJyb3JHZW5lcmFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Repos Progra IV/Examen_Final_Progra06_Interfaz/Examen_Final_Progra06_Interfaz/Views/Login/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Repos Progra IV/Examen_Final_Progra06_Interfaz/Examen_Final_Progra06_Interfaz/Views/Productreview/agregaProductreview.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHJldmlld1xhZ3JlZ2FQcm9kdWN0cmV2aWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Repos Progra IV/Examen_Final_Progra06_Interfaz/Examen_Final_Progra06_Interfaz/Views/Productreview/detalleProductreview.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHJldmlld1xkZXRhbGxlUHJvZHVjdHJldmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Repos Progra IV/Examen_Final_Progra06_Interfaz/Examen_Final_Progra06_Interfaz/Views/Productreview/eliminaProductreview.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHJldmlld1xlbGltaW5hUHJvZHVjdHJldmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Repos Progra IV/Examen_Final_Progra06_Interfaz/Examen_Final_Progra06_Interfaz/Views/Productreview/modificaProductreview.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHJldmlld1xtb2RpZmljYVByb2R1Y3RyZXZpZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Repos Progra IV/Examen_Final_Progra06_Interfaz/Examen_Final_Progra06_Interfaz/Views/Productreview/obtenerProductreviews.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHJldmlld1xvYnRlbmVyUHJvZHVjdHJldmlld3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Repos Progra IV/Examen_Final_Progra06_Interfaz/Examen_Final_Progra06_Interfaz/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Repos Progra IV/Examen_Final_Progra06_Interfaz/Examen_Final_Progra06_Interfaz/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Repos Progra IV/Examen_Final_Progra06_Interfaz/Examen_Final_Progra06_Interfaz/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Repos Progra IV/Examen_Final_Progra06_Interfaz/Examen_Final_Progra06_Interfaz/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[Z:/Repos Progra IV/Examen_Final_Progra06_Interfaz/Examen_Final_Progra06_Interfaz/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-won5xm3c0f

@@ -1,0 +1,243 @@
+[
+  {
+    "ContainingType": "ApiProgra06ExamenFinal.Controllers.AutenticacionController",
+    "Method": "validarUsuario",
+    "RelativePath": "api/Autenticacion/validarUsuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pUsuario",
+        "Type": "ApiProgra06ExamenFinal.Modelos.Usuario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProgra06ExamenFinal.Controllers.DepartmentController",
+    "Method": "delDepartamento",
+    "RelativePath": "api/Department/delDepartamento/{pIdDepartment}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pIdDepartment",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProgra06ExamenFinal.Controllers.DepartmentController",
+    "Method": "delDepartamento",
+    "RelativePath": "api/Department/delDepartamento/{pIdDepartment}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pIdDepartment",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProgra06ExamenFinal.Controllers.DepartmentController",
+    "Method": "insDepartamento",
+    "RelativePath": "api/Department/insDepartamento",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pDepartment",
+        "Type": "AccesoDatos.Entidades.Department",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProgra06ExamenFinal.Controllers.DepartmentController",
+    "Method": "modDepartamento",
+    "RelativePath": "api/Department/modDepartamento",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pDepartment",
+        "Type": "AccesoDatos.Entidades.Department",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProgra06ExamenFinal.Controllers.DepartmentController",
+    "Method": "obtenerDepartamentos",
+    "RelativePath": "api/Department/obtenerDepartamentos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[AccesoDatos.Entidades.Department, Entidades, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiProgra06ExamenFinal.Controllers.DepartmentController",
+    "Method": "obtenerDepartamentosXID",
+    "RelativePath": "api/Department/obtenerDepartamentosXID/{pIdDepartment}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pIdDepartment",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AccesoDatos.Entidades.Department",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiProgra06ExamenFinal.Controllers.ProductReviewController",
+    "Method": "delProductReview",
+    "RelativePath": "ProductReview/delProductReview/{pIdProductReview}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pIdProductReview",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProgra06ExamenFinal.Controllers.ProductReviewController",
+    "Method": "insProductReview",
+    "RelativePath": "ProductReview/insProductReview",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pProductReview",
+        "Type": "AccesoDatos.Entidades.ProductReview",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProgra06ExamenFinal.Controllers.ProductReviewController",
+    "Method": "modProductReview",
+    "RelativePath": "ProductReview/modProductReview",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pProductReview",
+        "Type": "AccesoDatos.Entidades.ProductReview",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiProgra06ExamenFinal.Controllers.ProductReviewController",
+    "Method": "obtenerProductReviews",
+    "RelativePath": "ProductReview/obtenerProductReviews",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[AccesoDatos.Entidades.ProductReview, Entidades, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiProgra06ExamenFinal.Controllers.ProductReviewController",
+    "Method": "obtenerProductReviewXID",
+    "RelativePath": "ProductReview/obtenerProductReviewXID/{pIdProductReview}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pIdProductReview",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AccesoDatos.Entidades.ProductReview",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiProgra06ExamenFinal.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[ApiProgra06ExamenFinal.WeatherForecast, ApiProgra06ExamenFinal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]

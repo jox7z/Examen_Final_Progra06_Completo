@@ -1,0 +1,22 @@
+﻿@model Examen_Final_Progra06_Interfaz.Models.Usuario
+
+@{
+    ViewData["Title"] = "errorGeneral";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<from asp-action = "retornarLogin"></from>
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h1>Examen Final Programacion VI</h1>
+        </div>
+        <span style="color: black; font-size:14px; margin-left:10px;">
+            <img class="manImg" src="~/Imagenes/imagen_error.png" height="50" width="50" />
+            Error al ingresar, el usuario o contraseña son incorrectos, por favor verifique.
+        </span>
+        <div class="modal-footer">
+            <a asp-action="Login" class="btn btn-primary">Aceptar</a>
+        </div>
+    </div>
+</div>

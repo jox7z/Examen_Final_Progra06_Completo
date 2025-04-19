@@ -1,0 +1,42 @@
+﻿@model Examen_Final_Progra06_Interfaz.Models.mProductReview
+
+@{
+    ViewData["Title"] = "Detalle de la Reseña";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Detalle de la Reseña</h1>
+
+<div>
+    
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-3">ID de Reseña</dt>
+        <dd class="col-sm-9">@Model.ProductReviewId</dd>
+
+        <dt class="col-sm-3">ID de Producto</dt>
+        <dd class="col-sm-9">@Model.ProductId</dd>
+
+        <dt class="col-sm-3">Nombre del Reseñador</dt>
+        <dd class="col-sm-9">@Model.ReviewerName</dd>
+
+        <dt class="col-sm-3">Fecha de Reseña</dt>
+        <dd class="col-sm-9">@Model.ReviewDate</dd>
+
+        <dt class="col-sm-3">Correo Electrónico</dt>
+        <dd class="col-sm-9">@Model.EmailAddress</dd>
+
+        <dt class="col-sm-3">Calificación</dt>
+        <dd class="col-sm-9">@Model.Rating</dd>
+
+        <dt class="col-sm-3">Comentarios</dt>
+        <dd class="col-sm-9">@Model.Comments</dd>
+
+        <dt class="col-sm-3">Fecha de Modificación</dt>
+        <dd class="col-sm-9">@Model.ModifiedDate</dd>
+    </dl>
+</div>
+
+<div>
+    <a asp-action="obtenerProductreviews">Regresar</a>
+</div>
